@@ -45,8 +45,13 @@ const Main1 = () =>{
                     <h4>Contact Us</h4>
                     <p>Complete our contact form and we'll be in <br/> touchwith you ASAP!</p>
                 </div>
+           </div>
         </div>
-    </div>
+
+        <div className="section3">
+            <h2> Our IShop Locations</h2>
+            <div></div>
+        </div>
 
     </div>
     )
