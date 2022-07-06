@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    p{
+        color: red;
+        font-weight: 700;
+        font-size: 1.3rem;
+        font-family: 'Dancing Script', cursive;
+    }
+    span{
+        color: rgb(66, 65, 65);
+        font-size: 1.5rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+.links ul{
+    display: flex;
+    li{
+        list-style: none;
+        padding: 0.5em 1.3em 0 1.3em;
+        a{
+            text-decoration: none;
+            color: rgb(66, 65, 65);
+            font-weight: 700;
+            font-size: 0.8rem;
+        }
+    }
+}
+.btn{
+    padding: 1em 0 0 0;
+    button{
+        background-color: rgb(224, 16, 16);
+        color: white;
+        border: none;
+        padding: 0.8em;
+        border-radius: 5px;
+    }
+}
