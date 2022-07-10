@@ -1,4 +1,5 @@
 import React from "react";
+import {NavLink} from 'react-router-dom';
 
 const Navbar =()=>{
 
@@ -7,8 +8,12 @@ const Navbar =()=>{
             <div className="logo">
                 <p>ip<span>NX</span></p>
             </div>
+
             <div className="links">
                 <ul>
+                    <li>
+                        <NavLink className ="active-link" to="/">HOME</NavLink>
+                    </li>
                     <li>
                         <a href="home.html">FOS XTREME</a>
                     </li>
@@ -37,7 +42,7 @@ const Navbar =()=>{
                 
             </div>
             <div className="btn">
-                <button className="sign">Sign Up</button>
+                <NavLink to='/register' className="sign">Sign Up</NavLink>
             </div>
 
         </div>
