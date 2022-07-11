@@ -3,7 +3,11 @@ import React from "react";
 const RequestForm = () =>{
     return(
         <div className="requestForm">
-            <div className="basicInfo">
+            <div className="formHead">
+                <p>Basic Information</p>
+                <p>Document Upload</p>
+            </div>
+             <div className="basicInfo">
                 <div className="cont">
                     <div>
                         <label>First Name</label> <br/>
@@ -78,11 +82,49 @@ const RequestForm = () =>{
                             <option>Lagos</option>
                         </select>
                     </div>
-                </div>
-            </div>
-            <div className="docUpload">
+                    </div>
 
-            </div>
+                    <div className="build">
+                        <label>Buiding Type</label><br/>
+                        <select>
+                            <option>    </option>
+                            <option>Lagos</option>
+                        </select>
+                    </div>
+
+                    <button className="continue">Continue</button>
+                
+            </div> 
+
+            {/* <div className="docUpload">
+                <div>
+                    <label>Passport Upload</label>
+                    <input type="file" />
+                 </div>
+
+                 <div>
+                    <label>Preferred Personal Identification Document</label> <br/>
+                    <select>
+                        <option>    </option>
+                        <option> NIMC</option>
+                        <option> Voters Card</option>
+                    </select>
+                 </div>
+
+                 <div>
+                    <label>Utility Bill</label>
+                    <p>Drop your files here or <a href="">click here</a> to upload</p>
+                    <p>Format (jpg, png, xls, pdf, csv, ppt). Maximum of 5MB</p>
+                 </div>
+
+                 <div>
+                    <button> Back</button>
+
+                    <button>Submit</button>
+                 </div>
+
+
+            </div> */}
         </div>
     )
 }

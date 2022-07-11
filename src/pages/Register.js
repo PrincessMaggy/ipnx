@@ -12,6 +12,7 @@ const Register = () =>{
             <h1>Request Form</h1>
             <p> Please supply correct information in the fields below</p>
             <RequestForm/>
+            <p>Powered by ip<span>NX</span></p>
         </div>
     )
 }
