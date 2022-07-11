@@ -7,7 +7,6 @@ const Register = () =>{
 
     return(
         <div className="Register">
-            <h1>Hello World</h1>
             <Nav2/>
             <RequestForm/>
         </div>

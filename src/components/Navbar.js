@@ -12,9 +12,6 @@ const Navbar =()=>{
             <div className="links">
                 <ul>
                     <li>
-                        <NavLink className ="active-link" to="/">HOME</NavLink>
-                    </li>
-                    <li>
                         <a href="home.html">FOS XTREME</a>
                     </li>
                     <li>

@@ -1,0 +1,20 @@
+.Nav2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6em 0 6em;
+    margin: 0;
+}
+
+ul{
+    display: flex;
+    li{
+        list-style: none;
+        text-transform: uppercase;
+        padding: 0.5em 1.3em 0 1.3em;
+       a{
+        color: rgb(95, 93, 93);
+        text-decoration: none;
+        font-weight: 400;
+       }
+    }
+}
