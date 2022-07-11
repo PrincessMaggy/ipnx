@@ -5,6 +5,7 @@
     padding: 0 2em 0 2em; 
 }
 .logo{
+    cursor: pointer;
     p{
         color: red;
         font-weight: 700;
@@ -29,6 +30,9 @@
             color: rgb(66, 65, 65);
             font-weight: 700;
             font-size: 0.8rem;
+            &:hover{
+                text-decoration: underline;
+            }
         }
     }
 }
