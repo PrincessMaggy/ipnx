@@ -14,7 +14,7 @@ const Nav2 =() =>{
                     <li>
                         <NavLink className ="active-link" to="/">HOME</NavLink> </li>
                    
-                    <li> <NavLink to='/register' className="login">Login</NavLink> </li>
+                    <li> <NavLink to='/login' className="login">Login</NavLink> </li>
 
                     <li> <NavLink to='/register' className="FAQ">FAQ</NavLink> </li>
 
