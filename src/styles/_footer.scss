@@ -1,0 +1,46 @@
+.black{
+    background-color: rgb(49, 48, 48);
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 3em 4em 1em 4em;
+    div{
+        display: flex;
+        flex-direction: column;
+        a{
+            text-decoration: none;
+            padding: 0.3em;
+            color: white;
+            &:first-child{
+                padding-bottom: 2em;
+            }
+        }
+    }
+}
+.fourF p{
+    width: 15em;
+    color: white;
+    margin: 0;
+}
+.grey{
+    background-color: #979697;
+    padding: 1.5em 1em 1.5em 1em;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    a{
+        color: white;
+    }
+    p{
+    margin: 0;  
+    }
+    button {
+        background-color: rgb(250, 20, 20);
+        color: white;
+        border: none;
+        width: 8em;
+        padding: 0.5em;
+    }
+}
